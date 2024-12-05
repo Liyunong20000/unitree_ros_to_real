@@ -1,4 +1,4 @@
 [submodule "unitree_legged_sdk"]
 	path = unitree_legged_sdk
 	url = https://github.com/Liyunong20000/unitree_legged_sdk/tree/PR/ros_one/catkin_build
-	version: 62d006f
+	
