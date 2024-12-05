@@ -1,7 +1,9 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(unitree_legged_real)
 
-set(CMAKE_CXX_FLAGS "-O3 -fPIC -std=c++11")
+
+set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -no-pie")
+set(CMAKE_CXX_FLAGS "-O3 -fPIC -std=c++17")
 
 find_package(catkin REQUIRED COMPONENTS
     roscpp
